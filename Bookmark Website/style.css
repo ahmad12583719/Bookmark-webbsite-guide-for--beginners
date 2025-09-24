@@ -1,0 +1,120 @@
+/* Basic page setup */
+body {
+    font-family: Arial, sans-serif;
+    background:
+        linear-gradient(135deg, rgba(227,242,253,0.85) 0%, rgba(187,222,251,0.85) 100%),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80'); /* Soft blue gradient + background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px #0001;
+    border-radius: 0 0 16px 16px;
+    padding: 24px 0 16px 0;
+}
+.main-logo {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px #0002;
+    border-radius: 50%;
+}
+
+/* Main heading style */
+.main-title {
+    font-size: 2.6rem;
+    color: #1565c0; /* Slightly deeper blue */
+    margin: 40px 0 24px 0;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 0 2px 8px #bbdefb;
+}
+
+.main-desc {
+    color: #555;
+    font-size: 1.05rem;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.about-section {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.about-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Bookmark list styles */
+.bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 370px;
+}
+.bookmark-list li {
+    margin-bottom: 22px;
+}
+.bookmark-list a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 22px;
+    background: #fff;
+    border-radius: 16px;
+    color: #1976d2;
+    text-decoration: none;
+    font-size: 1.12rem;
+    box-shadow: 0 2px 12px #90caf9;
+    border: 1px solid #bbdefb;
+    transition: background 0.25s, box-shadow 0.25s, transform 0.15s;
+}
+.bookmark-list a:hover {
+    background: #e3f2fd;
+    box-shadow: 0 6px 24px #64b5f6;
+    transform: translateY(-2px) scale(1.03);
+}
+.site-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+}
+
+.details-footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.95em;
+    margin-top: 40px;
+    padding-bottom: 12px;
+}
+
+/* Footer style */
+.footer {
+    text-align: center;
+    color: #1976d2;
+    font-size: 1.05em;
+    margin-top: auto;
+    padding: 22px 0 16px 0;
+    background: linear-gradient(90deg, #e3f2fd 60%, #bbdefb 100%);
+    border-top: 2px solid #90caf9;
+    box-shadow: 0 -2px 12px #90caf9;
+}
+.footer-desc {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
